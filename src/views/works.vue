@@ -5,7 +5,7 @@
             <textbox 
                 title="RaspiMonitor"
                 sub-title="Raspberry Piの状態を表示するWebアプリケーション"
-                image='https://raw.githubusercontent.com/bean1310/RaspiMonitor/develop/src/screen.png'
+                image='./img/works/raspiMonitor.png'
                 content='<p>
                     <a href="https://github.com/bean1310/RaspiMonitor" target="_blank" rel="noopener">GitHub</a><br>
                     PHP, Laravel, jQuery, Vue.js
