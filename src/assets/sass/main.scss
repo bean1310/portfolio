@@ -1,0 +1,15 @@
+a:link { color: $textColor; }
+a:visited { color: $textColor; }
+a:hover { color: $accentColor; }
+a:active { color: $textColor; }
+
+h1 {
+    font-size: 40px;
+    font-style: italic;
+    color: #b84242;
+  }
+
+h2 {
+    font-size: 30px;
+    color: $subColor;
+}
