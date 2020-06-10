@@ -25,17 +25,14 @@
   </div>
 </template>
 
-<style>
+<style lang="scss" scoped>
+
 h1 {
   font-size: 40px;
   font-style: italic;
-  color: #b84242;
+  color: $accentColor;
 }
 
-p {
-  margin-top: 20px;
-  line-height: 2em;
-}
 </style>
 
 <script>

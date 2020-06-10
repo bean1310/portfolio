@@ -3,6 +3,14 @@ a:visited { color: $textColor; }
 a:hover { color: $accentColor; }
 a:active { color: $textColor; }
 
+body {
+  background-color:$backgroudColor;
+}
+
+p {
+  color: $textColor;
+}
+
 h1 {
     font-size: 40px;
     font-style: italic;

@@ -13,15 +13,7 @@
   </div>
 </template>
 
-<style lang="scss">
-
-body {
-  background-color:$backgroudColor;
-}
-
-p {
-  color:$mainColor;
-}
+<style lang="scss" scoped>
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
