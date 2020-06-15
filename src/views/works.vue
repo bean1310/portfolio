@@ -47,6 +47,19 @@
                         <li>NFCカードを利用した蔵書管理WPFアプリ</li>
                         <li><a href="https://github.com/bean1310/2048-java-practice" target="_blank" rel="noopener">Javaによる2048的ゲーム</a></li>
                         <li>Rpi用の赤外線を簡単に送信/受信するソフトウェア: <a href="https://github.com/bean1310/sendIR-RPi">sendIR-RPi</a> / <a href="https://github.com/bean1310/readIR-RPi">readIR-RPi</a>
+                        <li>Minecraft PE Script Mod : <a href="http://zns5.web.fc2.com/obs_ja.html" target="_blank" rel="noopener">Obs+ Mod</a></li>
+                        <li>Minecraft PE Script Mod : <a href="http://zns5.web.fc2.com/shs_ja.html" target="_blank" rel="noopener">Steve_h8s_snow</a></li>
+                    </ul>
+                '
+                box-width='40%' 
+
+            />
+            <textbox
+                title="Research"
+                content='
+                    <p>研究に関しては現在1件の研究会発表があります．</p>
+                    <ul>
+                        <li><a href="http://id.nii.ac.jp/1001/00203880" target="_blank" rel="noopener">IoTの安全性向上のためのOSセキュリティ機能調査<a/></li>
                     </ul>
                 '
                 box-width='40%' 
