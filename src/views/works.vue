@@ -32,7 +32,7 @@
                 image='./img/works/portfolio.png'
                 content='
                     <p>
-                        <a href="https://github.com/bean1310/snakeGame" target="_blank" rel="noopener">GitHub</a><br>
+                        <a href="https://github.com/bean1310/portfolio" target="_blank" rel="noopener">GitHub</a><br>
                         JavaScript, Vue, Sass
                     </p>
                 '
