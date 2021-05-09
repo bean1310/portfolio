@@ -57,9 +57,10 @@
             <textbox
                 title="Research"
                 content='
-                    <p>研究に関しては現在1件の研究会発表があります．</p>
+                    <p>研究に関しては現在2件の研究会発表があります．</p>
                     <ul>
                         <li><a href="http://id.nii.ac.jp/1001/00203880" target="_blank" rel="noopener">IoTの安全性向上のためのOSセキュリティ機能調査<a/></li>
+                        <li><a href="http://id.nii.ac.jp/1001/00209628" target="_blank" rel="noopener">IoT 機器向けアプリケーション隔離実行基盤の検討<a/></li>
                     </ul>
                 '
                 box-width='40%' 
