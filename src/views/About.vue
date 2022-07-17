@@ -5,8 +5,8 @@
       title="Basic Info"
       content="
        （よく使う）ハンドルネーム：BEAN<br>
-       所属：立命館大学大学院 情報理工学研究科<br>
-       研究キーワード：IoT, OS, セキュリティ
+       所属：NTT Communications<br>
+       お仕事キーワード：OpenStack, Private Cloud
       " />
     <textbox
       title="SNS"
@@ -21,7 +21,6 @@
       title="Sites"
       content='
         技術ブログのつもり...：<a href="https://beanlog.xyz" target="_blank" rel="noopener">BEANLOG</a><br>
-        個人wiki．ブログにならない話：<a href="https://wiki.beanlog.xyz" target="_blank" rel="noopener">BEANLOG WIKI</a>
       '
     />
   </div>
