@@ -1,0 +1,104 @@
+:root {
+    font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+  
+    color-scheme: dark light;
+    background-color: $dark_backgroudColor;
+    color: $dark_fontColor;
+  
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+  }
+  
+  a {
+    font-weight: 500;
+  }
+  a:link { color:$dark_linkColor; }
+  a:visited { color:$dark_linkColor; }
+  a:hover { color: $dark_linkColor; }
+  a:active { color: $dark_linkColor; }
+  
+  body {
+    margin: 0;
+    place-items: center;
+  }
+
+  hr {
+    border-width: 3px 0 0 0; /* 線の太さを指定 */
+    border-style:solid; /* 線の種類を指定 */
+    border-color: $dark_hrColor; /*線の色を指定 */
+  }
+  
+  #contents {
+    min-width: 320px;
+    min-height: 100vh;
+    max-width: 1280px;
+    margin: 150px auto auto auto;
+  }
+  
+  #header {
+    font-size: 3.2em;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  #app {
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .banner {
+    position:fixed;
+    display: block;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    background-color: $dark_bannerBackgroundColor;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+  }
+  
+  #top_page_photo {
+    width: 50%;
+  }
+
+  .page {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+  }
+  
+  @media (prefers-color-scheme: light) {
+    :root {
+      color: $light_fontColor;
+      background-color: $light_backgroudColor;
+    }
+
+    .banner {
+      background-color: $light_bannerBackgoundColor;
+    }
+
+    a:link { color:$light_linkColor; }
+    a:visited { color:$light_linkColor; }
+    a:hover { color: $light_linkColor; }
+    a:active { color:$light_linkColor; }
+
+    hr {
+        border-color: $light_hrColor; /*線の色を指定 */
+      }
+  }
+  
+  @media screen and (max-width:1024px) {
+    #top_page_photo {
+      width: 90%;
+    }
+  
+    :root {
+      font-size: 14px;
+    }
+  }

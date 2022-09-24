@@ -1,15 +1,9 @@
-import Vue from 'vue'
-import App from './App.vue'
-import router from './router'
+import './assets/app.scss'
+import './assets/Block.scss'
+import App from './App.svelte'
 
-// Reset CSS
-import 'normalize.css'
+const app = new App({
+  target: document.getElementById('app')
+})
 
-require('@/assets/sass/main.scss')
-
-Vue.config.productionTip = false
-
-new Vue({
-  router,
-  render: h => h(App)
-}).$mount('#app')
+export default app
