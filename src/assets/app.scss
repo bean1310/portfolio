@@ -5,8 +5,8 @@
     font-weight: 400;
   
     color-scheme: dark light;
-    color: rgba(255, 255, 255, 0.87);
-    background-color: #242424;
+    background-color: $dark_backgroudColor;
+    color: $dark_fontColor;
   
     font-synthesis: none;
     text-rendering: optimizeLegibility;
@@ -18,48 +18,47 @@
   a {
     font-weight: 500;
   }
-  a:link { color:#ffffff; }
-  a:visited { color:#ffffff; }
-  a:hover { color: #ffffff; }
-  a:active { color:#ffffff; }
+  a:link { color:$dark_linkColor; }
+  a:visited { color:$dark_linkColor; }
+  a:hover { color: $dark_linkColor; }
+  a:active { color: $dark_linkColor; }
   
   body {
     margin: 0;
     place-items: center;
-    /* overflow-x: hidden; */
+  }
+
+  hr {
+    border-width: 3px 0 0 0; /* 線の太さを指定 */
+    border-style:solid; /* 線の種類を指定 */
+    border-color: $dark_hrColor; /*線の色を指定 */
   }
   
   #contents {
-    /* background-color: #535bf2; */
     min-width: 320px;
     min-height: 100vh;
     max-width: 1280px;
     margin: 150px auto auto auto;
   }
   
-  hr {
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-  }
-  
-  h1 {
+  #header {
     font-size: 3.2em;
-    /* line-height: 1.1; */
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
   
   #app {
-    /* max-width: 1280px; */
     margin: 0 auto;
-    /* padding: 2rem; */
     text-align: center;
   }
   
-  .barner {
+  .banner {
     position:fixed;
     display: block;
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
-    background-color: rgba(28, 28, 28, 0.5);
+    background-color: $dark_bannerBackgroundColor;
     width: 100%;
     top: 0;
     z-index: 100;
@@ -68,25 +67,30 @@
   #top_page_photo {
     width: 50%;
   }
+
+  .page {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+  }
   
   @media (prefers-color-scheme: light) {
     :root {
-      color: #213547;
-      background-color: #ffffff;
+      color: $light_fontColor;
+      background-color: $light_backgroudColor;
     }
-    a:hover {
-      color: #747bff;
+
+    .banner {
+      background-color: $light_bannerBackgoundColor;
     }
-    button {
-      background-color: #f9f9f9;
-    }
-    .barner {
-      background-color: rgb(236, 236, 236, 0.5);
-    }
-    a:link { color:#000000; }
-    a:visited { color:#000000; }
-    a:hover { color: #000000; }
-    a:active { color:#000000; }
+
+    a:link { color:$light_linkColor; }
+    a:visited { color:$light_linkColor; }
+    a:hover { color: $light_linkColor; }
+    a:active { color:$light_linkColor; }
+
+    hr {
+        border-color: $light_hrColor; /*線の色を指定 */
+      }
   }
   
   @media screen and (max-width:1024px) {

@@ -1,6 +1,21 @@
-$backgroudColor:#000000;
-$mainColor:#ffffff;
-$accentColor:#b84242;
-$subColor: #ffffff;
+// dark (default) theme colors
+$dark_backgroudColor:#242424;
+$dark_fontColor: #e2e2e2;
+$dark_linkColor: $dark_fontColor;
+$dark_hrColor: $dark_fontColor;
 
-$textColor:#ffffff;
+$dark_bannerBackgroundColor: rgba(28, 28, 28, 0.5);
+
+$dark_sectionTitleColor: $dark_backgroudColor;
+$dark_sectionTitleBackgroundColor: $dark_fontColor;
+
+// light theme colors
+$light_backgroudColor:$dark_fontColor;
+$light_fontColor: $dark_backgroudColor;
+$light_linkColor: $light_fontColor;
+$light_hrColor: $light_fontColor;
+
+$light_bannerBackgoundColor: rgba(255, 255, 255, 0.5);
+
+$light_sectionTitleColor: $light_backgroudColor;
+$light_sectionTitleBackgroundColor: $light_fontColor;

@@ -1,6 +1,5 @@
 <script>
   import { loop_guard, update_await_block_branch } from "svelte/internal";
-  import Counter from "./lib/Counter.svelte";
   import IntersectionObserver from "svelte-intersection-observer";
 
   import Block from "./lib/Block.svelte"
@@ -28,21 +27,20 @@
 </script>
 
 <main>
-  <div class="barner">
-    <h1>{contentName}</h1>
+  <div class="banner">
+    <p id="header">{contentName}</p>
   </div>
   <div id="contents">
-  <IntersectionObserver bind:element={home_element} bind:intersecting={is_home_in_viewpoint} rootMargin="-50% 0px">
-    <div bind:this={home_element} class="page">
-      <h2>Welcome to my portfolio</h2>
+  <IntersectionObserver bind:element={home_element} bind:intersecting={is_home_in_viewpoint} rootMargin="-20% 0px">
+    <div bind:this={home_element} class="page" id="home_page">
+      <p><b>Welcome to my portfolio</b></p>
       <img src="img/top.jpeg" id="top_page_photo" />
       <p>白と黒が好きです．コンピュータの0と1と同じように．</p>
     </div>
   </IntersectionObserver>
-
+  <hr>
   <IntersectionObserver bind:element={about_element} bind:intersecting={is_about_in_viewpoint} rootMargin="-50% 0px">
     <div bind:this={about_element} class="about, page">
-      <hr>
       <Block title={"Basic Info"} content={
         "（よく使う）ハンドルネーム：BEAN<br> \
         所属：NTT Communications<br> \
@@ -65,10 +63,9 @@
       />
     </div>
   </IntersectionObserver>
-
+  <hr>
   <IntersectionObserver bind:element={works_element} bind:intersecting={is_works_in_viewpoint} rootMargin="-50% 0px">
     <div bind:this={works_element} name="works" class="page">
-      <hr>
           <Block 
               title="RaspiMonitor"
               sub-title="Raspberry Piの状態を表示するWebアプリケーション"
@@ -137,22 +134,3 @@
     </div>
   </IntersectionObserver>
 </main>
-
-
-
-<style>
-  .logo {
-    height: 6em;
-    padding: 1.5em;
-    will-change: filter;
-  }
-  .logo:hover {
-    filter: drop-shadow(0 0 2em #646cffaa);
-  }
-  .logo.svelte:hover {
-    filter: drop-shadow(0 0 2em #ff3e00aa);
-  }
-  .read-the-docs {
-    color: #888;
-  }
-</style>
