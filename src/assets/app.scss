@@ -29,9 +29,9 @@
   }
 
   hr {
-    border-width: 3px 0 0 0; /* 線の太さを指定 */
-    border-style:solid; /* 線の種類を指定 */
-    border-color: $dark_hrColor; /*線の色を指定 */
+    border-width: 3px 0 0 0;
+    border-style:solid;
+    border-color: $dark_hrColor;
   }
   
   #contents {
@@ -89,7 +89,7 @@
     a:active { color:$light_linkColor; }
 
     hr {
-        border-color: $light_hrColor; /*線の色を指定 */
+        border-color: $light_hrColor;
       }
   }
   
