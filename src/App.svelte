@@ -97,7 +97,7 @@
               content='
                   <p>
                       <a href="https://github.com/bean1310/portfolio" target="_blank" rel="noopener">GitHub</a><br>
-                      JavaScript, Vue, Sass
+                      JavaScript, Svelte, Sass(SCSS)
                   </p>
               '
               box-width='40%' 
