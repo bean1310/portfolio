@@ -1,6 +1,5 @@
 <script>
   import { loop_guard, update_await_block_branch } from "svelte/internal";
-import svelteLogo from "./assets/svelte.svg";
   import Counter from "./lib/Counter.svelte";
   import IntersectionObserver from "svelte-intersection-observer";
 
