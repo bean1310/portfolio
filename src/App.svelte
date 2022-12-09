@@ -119,6 +119,16 @@
 
           />
           <Block
+            title="Contributions"
+            content='
+            <p>寄稿したもの</p>
+            <ul>
+                <li><a href="https://engineers.ntt.com/entry/2022/12/06/081251" target="_blank" rel="noopener">uefi-rsを使わずにRustでMikanOSをやっていく話<a/></li>
+            </ul>
+            '
+            box-width="40%"
+          />
+          <Block
               title="Research"
               content='
                   <p>研究に関しては現在3件の研究会発表があります．</p>
