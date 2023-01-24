@@ -121,9 +121,10 @@
           <Block
             title="Contributions"
             content='
-            <p>寄稿したもの</p>
+            <p>寄稿・載ったもの</p>
             <ul>
                 <li><a href="https://engineers.ntt.com/entry/2022/12/06/081251" target="_blank" rel="noopener">uefi-rsを使わずにRustでMikanOSをやっていく話<a/></li>
+                <li><a href="https://engineers.ntt.com/entry/2023/01/24/102834" target="_blank" rel="noopener">NTT Comのエンジニアコミュニティイベント【Tech-Night/Tech-Midnight】<a/></li>
             </ul>
             '
             box-width="40%"
