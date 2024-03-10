@@ -9,7 +9,7 @@
                 "minor",
                 "patch"
             ],
-            "automerge": false
+            "automerge": true
         }
     ],
     "schedule": [
