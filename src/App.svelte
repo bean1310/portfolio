@@ -123,6 +123,7 @@
             content='
             <p>寄稿・載ったもの</p>
             <ul>
+                <li><a href="https://note.nttdocomo-fresh.jp/n/ndd6313f45f6c" target="_blank" rel="noopener">【社員紹介#14】たくさんのコンピュータのお世話をするおしごと（クラウド開発エンジニア）<a/></li>
                 <li><a href="https://engineers.ntt.com/entry/2022/12/06/081251" target="_blank" rel="noopener">uefi-rsを使わずにRustでMikanOSをやっていく話<a/></li>
                 <li><a href="https://engineers.ntt.com/entry/2023/01/24/102834" target="_blank" rel="noopener">NTT Comのエンジニアコミュニティイベント【Tech-Night/Tech-Midnight】<a/></li>
             </ul>
