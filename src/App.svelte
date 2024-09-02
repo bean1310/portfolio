@@ -49,7 +49,7 @@
       <Block
         title="SNS"
         content='
-          Twitter：<a href="https://twitter.com/bean_public" target="_blank" rel="noopener">@bean_public</a><br>
+          X：<a href="https://x.com/0x0000_051e" target="_blank" rel="noopener">@0x0000_051e</a><br>
           GitHub：<a href="https://github.com/bean1310" target="_blank" rel="noopener">BEAN</a><br>
           読書メータ：<a href="https://bookmeter.com/users/653057" target="_blank" rel="noopener">BEAN</a><br>
           KeyBase：<a href="https://keybase.io/bean_comp" target="_blank" rel="noopener">BEAN</a>
