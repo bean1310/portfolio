@@ -15,7 +15,7 @@ h2 {
     position: relative;
     display: inline-block;
     vertical-align: top;
-    width: 50%;
+    width: var(--box-width, 50%);
     border: solid;
     border-width: 3px;
     border-color: $dark_sectionTitleBackgroundColor;

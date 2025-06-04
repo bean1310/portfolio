@@ -3,9 +3,10 @@
     export let subTitle;
     export let image;
     export let content;
+    export let boxWidth = '50%';
 </script>
 
-<div id="box">
+<div id="box" style="--box-width: {boxWidth};">
     <div id="title-wrapper"><span id="title">{title}</span></div>
     <div id="content">
         
