@@ -1,5 +1,4 @@
 <script>
-  import { loop_guard, update_await_block_branch } from "svelte/internal";
   import IntersectionObserver from "svelte-intersection-observer";
 
   import Block from "./lib/Block.svelte"
@@ -11,7 +10,6 @@
   let is_home_in_viewpoint;
   let is_works_in_viewpoint;
   let contentName = 'Home';
-  let banner;
 
   $: if (is_about_in_viewpoint) {
     contentName = 'About'
@@ -40,7 +38,7 @@
   </IntersectionObserver>
   <hr>
   <IntersectionObserver bind:element={about_element} bind:intersecting={is_about_in_viewpoint} rootMargin="-50% 0px">
-    <div bind:this={about_element} class="about, page">
+    <div bind:this={about_element} class="about page">
       <Block title={"Basic Info"} content={
         "（よく使う）ハンドルネーム：BEAN<br> \
         所属：NTT Communications<br> \
@@ -68,18 +66,18 @@
     <div bind:this={works_element} name="works" class="page">
           <Block 
               title="RaspiMonitor"
-              sub-title="Raspberry Piの状態を表示するWebアプリケーション"
+              subTitle="Raspberry Piの状態を表示するWebアプリケーション"
               image='./img/works/raspiMonitor.png'
               content='<p>
                   <a href="https://github.com/bean1310/RaspiMonitor" target="_blank" rel="noopener">GitHub</a><br>
                   PHP, Laravel, jQuery, Vue.js
               </p>
               '
-              box-width='40%'
+              boxWidth='40%'
           />
           <Block
               title="SnakeGame"
-              sub-title="ヘビのあのゲーム"
+              subTitle="ヘビのあのゲーム"
               image='./img/works/snakeGame.png'
               content='
                   <p>
@@ -87,12 +85,12 @@
                       C, ncurses
                   </p>
               '
-              box-width='40%' 
+              boxWidth='40%'
 
           />
           <Block
               title="Portfolio"
-              sub-title="このページ"
+              subTitle="このページ"
               image='./img/works/portfolio.png'
               content='
                   <p>
@@ -100,7 +98,7 @@
                       JavaScript, Svelte, Sass(SCSS)
                   </p>
               '
-              box-width='40%' 
+              boxWidth='40%'
 
           />
           <Block
@@ -115,7 +113,7 @@
                       <li>Minecraft PE Script Mod : <a href="http://zns5.web.fc2.com/shs_ja.html" target="_blank" rel="noopener">Steve_h8s_snow</a></li>
                   </ul>
               '
-              box-width='40%' 
+              boxWidth='40%'
 
           />
           <Block
@@ -128,7 +126,7 @@
                 <li><a href="https://engineers.ntt.com/entry/2023/01/24/102834" target="_blank" rel="noopener">NTT Comのエンジニアコミュニティイベント【Tech-Night/Tech-Midnight】<a/></li>
             </ul>
             '
-            box-width="40%"
+            boxWidth="40%"
           />
           <Block
               title="Research"
@@ -140,7 +138,7 @@
                       <li><a href="http://id.nii.ac.jp/1001/00217220" target="_blank" rel="noopener">Cortex-M用TrustZoneを用いたIoT機器向けタスク隔離実行基盤の設計<a/></li>
                   </ul>
               '
-              box-width='40%' 
+              boxWidth='40%'
 
           />
     </div>
