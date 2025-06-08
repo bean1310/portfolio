@@ -1,5 +1,4 @@
 <script>
-  import { loop_guard, update_await_block_branch } from "svelte/internal";
   import IntersectionObserver from "svelte-intersection-observer";
 
   import Block from "./lib/Block.svelte"
