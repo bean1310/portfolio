@@ -57,6 +57,8 @@
   
   .banner {
     position:fixed;
+    left: 0;
+    right: 0;
     display: block;
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
