@@ -6,9 +6,9 @@
   let about_element;
   let home_element;
   let works_element;
-  let is_about_in_viewpoint;
-  let is_home_in_viewpoint;
-  let is_works_in_viewpoint;
+  let is_about_in_viewpoint = false;
+  let is_home_in_viewpoint = false;
+  let is_works_in_viewpoint = false;
   let contentName = 'Home';
 
   $: if (is_about_in_viewpoint) {
@@ -29,7 +29,7 @@
     <p id="header">{contentName}</p>
   </div>
   <div id="contents">
-  <IntersectionObserver bind:element={home_element} bind:intersecting={is_home_in_viewpoint} rootMargin="-20% 0px">
+  <IntersectionObserver element={home_element} bind:intersecting={is_home_in_viewpoint} rootMargin="-20% 0px">
     <div bind:this={home_element} class="page" id="home_page">
       <p><b>Welcome to my portfolio</b></p>
       <img src="img/top.jpeg" id="top_page_photo" />
@@ -37,7 +37,7 @@
     </div>
   </IntersectionObserver>
   <hr>
-  <IntersectionObserver bind:element={about_element} bind:intersecting={is_about_in_viewpoint} rootMargin="-50% 0px">
+  <IntersectionObserver element={about_element} bind:intersecting={is_about_in_viewpoint} rootMargin="-50% 0px">
     <div bind:this={about_element} class="about page">
       <Block title={"Basic Info"} content={
         "（よく使う）ハンドルネーム：BEAN<br> \
@@ -62,7 +62,7 @@
     </div>
   </IntersectionObserver>
   <hr>
-  <IntersectionObserver bind:element={works_element} bind:intersecting={is_works_in_viewpoint} rootMargin="-50% 0px">
+  <IntersectionObserver element={works_element} bind:intersecting={is_works_in_viewpoint} rootMargin="-50% 0px">
     <div bind:this={works_element} name="works" class="page">
           <Block 
               title="RaspiMonitor"
